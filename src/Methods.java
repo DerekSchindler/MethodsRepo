@@ -4,9 +4,14 @@ public class Methods {
         //write code here
         printGreeting();
 
+        greetings("Derek");
+
+
     }
     public static void printGreeting(){
         System.out.println("Hello World");
-
+    }
+    public static void greetings(String name){
+        System.out.println("Hello "+ name);
     }
 }

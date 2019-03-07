@@ -12,6 +12,8 @@ public class Methods {
 
         max(3.5,10.75);
 
+        System.out.println("Hello World -> "+swap("Hello","World"));
+
     }
     public static void printGreeting(){
         System.out.println("Hello World");
@@ -38,5 +40,7 @@ public class Methods {
             System.out.println("The numbers are equal");
         }
     }
-    
+    public static String swap(String word1, String word2){
+       return word2+" "+word1;
+    }
 }
